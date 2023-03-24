@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="background" style="display: none;">
+        <div class="bg">
+            <div id="test-falan"></div>
+            <span class="test-drive-time"></span>
+            <span class="header-text">VEHICLE RENT</span>
+            <span class="header-text-second">Premium Vehicle Rent</span>
+            <div class="left-menu">
+                <div class="select-category-container">
+                    <div class="previousbutton">
+                        <i class="fa-sharp fa-solid fa-arrow-left" onclick="PreviousCategory()"></i>
+                    </div>
+                    <div class="category">TEST</div>
+                    <div class="nextbutton">
+                        <i class="fa-sharp fa-solid fa-arrow-right" onclick="NextCategory()"></i>
+                    </div>
+                </div>
+    
+                <div class="category-item-container">
+                    <!-- <div class="category-item">
+                        <img src="../html/car-image/elegy2.png" class="car-img">
+                        <span class="ci-text">BMW</span>
+                        <span class="ci-price-text">PRICE PER HOUR</span>
+                        <span class="ci-price">$125.00</span>
+                        <span class="ci-rental-time-text">RENTAL TIME</span>
+                        <div class="time-box">
+                            <span class="tb-text">15 Minutes</span>
+                        </div>
+                    </div> -->
+                </div>
+            </div> 
+
+            <div class="middle-box">
+                <i class="fa-sharp fa-solid fa-arrow-left left-one" onmousedown="moveLeft()" onmouseup="stopMovingLeft()"></i>
+                <i class="fa-sharp fa-solid fa-arrow-right right-one" onmousedown="moveRight()" onmouseup="stopMovingRight()"></i>
+                <button id="rent-car" onclick="Rent()">RENT</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
