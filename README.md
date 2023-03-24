@@ -9,7 +9,7 @@ https://streamable.com/4xgq7x
 - You can add as many rental shops as you want and wherever you want
 
 ## Note:
-I did it because I was bored. It took like 1 hour. That's why I came up with something in my head and made the design right away and didn't make it too detailed.
+I did it because I was bored. It took like 1-2 hour. That's why I came up with something in my head and made the design right away and didn't make it too detailed.
 By the way, for some reason the client side is encrypted.
 
 ## Requirements:
